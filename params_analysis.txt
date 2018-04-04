@@ -1,0 +1,9 @@
+Data taken from 10,000 random playthroughs of the game.
+
+Total number of turns: 39,206
+Average number of turns per game: 3.9206
+Total number of turns that a zombie was surrounded by 6, 7, or 8 humans (g): 4,153
+Total number of turns that a zombie was surrounded by 1, 2, 3, or 4 humans (k): 36,478
+
+Estimate of g = number of times g occurred / total number of turns = .10593
+Estimate of k = number of times k occurred / total number of turns = .93042
