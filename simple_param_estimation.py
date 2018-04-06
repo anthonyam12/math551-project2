@@ -3,7 +3,7 @@ import copy
 import os
 
 
-COL_ROW_COUNT = 10
+COL_ROW_COUNT = 15
 
 
 def print_grid(grid):
@@ -139,8 +139,11 @@ if __name__ == '__main__':
             stunned = reset_grid(grid)
             populate_grid(grid, humans, zombies, stunned)
             turns += 1
-
+        game.write(str(run) + ', ' + str(turns) + ', ' + str(humans) +
+                     ', ' + str(zombies) + ', ' + str(removed) + '\n')
         print(humans, zombies, removed)
         print(turns, k_count, g_count)
         params.write(str(run) + ', ' + str(turns) + ', ' + str(k_count) + ', '
                      + str(g_count) + '\n')
+    game.close()
+    params.close()
